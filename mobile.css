@@ -1,0 +1,55 @@
+body {
+  background: url(images/bg-pattern-bottom-mobile.svg) no-repeat bottom center,
+    url(images/bg-pattern-top-mobile.svg) no-repeat left top;
+}
+.container {
+  flex-direction: column;
+  margin: 0;
+}
+#title {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+#title h1 {
+  font-size: 2rem;
+  padding: 50px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+#title p {
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
+  padding: 15px;
+}
+.star-review {
+  margin: 0;
+}
+.reviews {
+  max-width: 350px;
+  margin: 12px;
+  padding: 20px;
+  text-align: center;
+}
+.reviews p {
+  display: block;
+  margin: 0;
+}
+.box-reviews {
+  flex-direction: column;
+  margin: 30px 20px 0 20px;
+}
+.box {
+  width: 340px;
+  margin: 0;
+  padding: 30px;
+}
+#box-irene {
+  margin: 0;
+  margin-top: 20px;
+}
+#box-anne {
+  margin: 0;
+  margin-top: 20px;
+}
